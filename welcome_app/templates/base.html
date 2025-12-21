@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'welcome_app/styles.css' %}">
+</head>
+<body>
+
+<nav>
+    <a href="/">Home</a> |
+    <a href="/about/">About</a> |
+    <a href="/projects/">Projects</a>
+</nav>
+
+<hr>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
