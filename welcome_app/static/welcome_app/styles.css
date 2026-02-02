@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f6fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* PROFILE CARD */
+.profile-card {
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* PROFILE IMAGE — THIS IS THE FIX */
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #6f42c1;
+    display: block;
+    margin: 0 auto;
+}
+
+/* NAME */
+.name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #6f42c1;
+}
+
+/* SUBTITLE */
+.subtitle {
+    font-size: 18px;
+    color: #555;
+}
+
+/* SECTION HEADINGS */
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+/* CARDS */
+.card {
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
