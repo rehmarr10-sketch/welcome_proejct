@@ -1,6 +1,38 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<h1>Welcome to My Portfolio Website 🚀</h1>
-<p>This is the homepage I built using Django.</p>
+
+<div class="container mt-5">
+
+    <!-- PROFILE CARD -->
+    <div class="card profile-card mb-4 p-4 text-center">
+        <img src="{% static 'welcome_app/profile.jpg' %}" alt="Profile picture" class="profile-pic">
+        <h1 class="name mt-3">Hi, I'm Rehma</h1>
+        <p class="subtitle">Django learner & CS student</p>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="card mb-4 p-4">
+        <h2 class="section-title">My First Steps as a Developer</h2>
+        <p>
+            I’m learning Django by building real projects and understanding
+            frontend vs backend responsibilities.
+        </p>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="card mb-4 p-4">
+        <h2 class="section-title">Experience</h2>
+        <p>University projects, Django basics, Git.</p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="card mb-4 p-4">
+        <h2 class="section-title">Skills</h2>
+        <p>Python, Django, HTML, CSS</p>
+    </div>
+
+</div>
+
 {% endblock %}
